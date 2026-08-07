@@ -1,22 +1,22 @@
-# 🌐 3D Portfolio Website
+# 🌐 Portifolio
 
-Welcome to my interactive 3D portfolio website! This site showcases my skills, projects, and contact information through a smooth and modern interface using Three.js, Framer Motion, and TailwindCSS.
+Welcome to my interactive portfolio website! This site showcases my skills, projects, and contact information through a smooth and modern interface using Three.js, Framer Motion, and TailwindCSS.
 
 ---
 
 ## 🚀 Features
 
-- 🎨 Modern and responsive UI design
-- 🌐 3D interactive elements with [Three.js](https://threejs.org/)
-- 🖼️ Filterable project showcase with smooth animations
-- 📱 Mobile and dark mode friendly
-- 🔗 Live demo and GitHub links for each project
-- 🧩 Dynamic category filtering with animation
-- ✨ Smooth transitions using Framer Motion
+- Modern and responsive UI design
+- 3D interactive elements with [Three.js](https://threejs.org/)
+- Filterable project showcase with smooth animations
+- 📱Mobile and dark mode friendly
+- Live demo and GitHub links for each project
+- Dynamic category filtering with animation
+- Smooth transitions using Framer Motion
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React, TypeScript
 - **Styling:** TailwindCSS
@@ -28,7 +28,7 @@ Welcome to my interactive 3D portfolio website! This site showcases my skills, p
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 
@@ -45,7 +45,7 @@ src/
 
 ---
 
-## 🔧 Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository:**
 
@@ -76,7 +76,7 @@ npm run build
 
 ## 🌐 Live Demo
 
-[👉 View Live Portfolio](https://dan-kingo.vercel.app)
+[👉 View Live Portfolio](https://sisaynegashmengistu.vercel.app)
 
 ---
 
