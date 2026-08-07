@@ -392,8 +392,8 @@ export const projectsData: Project[] = [
     image:
       "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     techStack: ["React", "Cloudinary", "Express", "MongoDB", "Zustand"],
-    demoUrl: "https://eeucms.netlify.app",
-    githubUrl: "https://github.com/dan-kingo/aicms",
+    demoUrl: "https://eeucms.netlify.app",// must edit
+    githubUrl: "https://github.com/sisaynegashmengistu/aicms",// must edit
     featured: true,
     category: "Fullstack",
   },
@@ -405,8 +405,8 @@ export const projectsData: Project[] = [
     image:
       "https://images.pexels.com/photos/4056856/pexels-photo-4056856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     techStack: ["HTML", "CSS", "PHP", "JavaScript"],
-    demoUrl: "https://github.com/dan-kingo/telemedicine",
-    githubUrl: "https://github.com/dan-kingo/telemedicine",
+    demoUrl: "https://github.com/sisaynegashmengistu/telemedicine",// must edit
+    githubUrl: "https://github.com/sisaynegashmengistu",// must edit
     featured: false,
     category: "Fullstack",
   },
@@ -418,8 +418,8 @@ export const projectsData: Project[] = [
     image:
       "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     techStack: ["React", "Chakra UI", "RAWG.io API", "Zustand"],
-    demoUrl: "https://joker-game.netlify.app",
-    githubUrl: "https://github.com/dan-kingo/Joker",
+    demoUrl: "https://joker-game.netlify.app",// must edit
+    githubUrl: "#https://github.com/sisaynegashmengistu/Joker",//must edit
     featured: true,
     category: "Frontend",
   },
@@ -431,8 +431,8 @@ export const projectsData: Project[] = [
     image:
       "https://whatfix.com/blog/wp-content/uploads/2022/12/digital-transformation-3.jpg",
     techStack: ["React", "Node.js", "MongoDB", "Express", "Grok API"],
-    demoUrl: "https://pathwise-ai-theta.vercel.app/",
-    githubUrl: "https://github.com/dan-kingo/PathWise-AI",
+    demoUrl: "https://pathwise-ai-theta.vercel.app/",//must edit
+    githubUrl: "https://github.com/sisaynegashmengistu/PathWise-AI",//must edit
     featured: true,
     category: "Fullstack",
   },
@@ -444,8 +444,8 @@ export const projectsData: Project[] = [
     image:
       "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     techStack: ["React", "Tailwind CSS"],
-    demoUrl: "https://miranagym.netlify.app",
-    githubUrl: "https://github.com/dan-kingo",
+    demoUrl: "https://miranagym.netlify.app",// must edit
+    githubUrl: "https://github.com/sisaynegashmengistu/Mirana-Gym",// must edit
     featured: false,
     category: "Frontend",
   },
@@ -457,8 +457,8 @@ export const projectsData: Project[] = [
     image:
       "https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     techStack: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://greatface.netlify.app/",
-    githubUrl: "https://github.com/dan-kingo",
+    demoUrl: "https://greatface.netlify.app/",//edit
+    githubUrl: "https://github.com/sisaynegashmengistu",//edit
     featured: false,
     category: "Frontend",
   },
