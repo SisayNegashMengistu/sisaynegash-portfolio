@@ -389,9 +389,8 @@ export const projectsData: Project[] = [
     title: "Diabetes Prediction System Using Machine Learning",
     description:
       "This project implements a diabetes prediction system using machine learning techniques. The system takes various health-related features as input and predicts whether a person is likely to have diabetes or not.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxi3iji8RMRkasgPqk0gMTZu-Lr487JzEphGz6YsOA-A&s=10",
-    techStack: ["Django", "Logistic Regression","Django"," Git / GitHub"],
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zKac32fTFNAKa6p-pgpvQaJ2_zS-t1qnM0BCLA1LiA&s=10",
+    techStack: ["CSS", "Logistic Regression","JavaScript","Django"," Git / GitHub"],
     demoUrl: "#",// must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Diabetes_Prediction_system_using_ML",// must edit
     featured: true,
