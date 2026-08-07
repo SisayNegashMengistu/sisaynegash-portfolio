@@ -75,7 +75,7 @@ npm run build
 
 ## 🌐 Live Demo
 
-[👉 View Live Portfolio](https://sisay-portifolio.vercel.app/.app)
+[👉 View Live Portfolio](https://sisay-portifolio.vercel.app/)
 
 ---
 
