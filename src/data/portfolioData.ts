@@ -410,16 +410,14 @@ export const projectsData: Project[] = [
   },
   {
     id: 3,
-    title: "Jocker Game",
-    description:
-      "A video game sharing and discovery platform integrating RAWG.io API, allowing users to browse, review, and share favorite games.",
-    image:
-      "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    techStack: ["React", "Chakra UI", "RAWG.io API", "Zustand"],
-    demoUrl: "https://joker-game.netlify.app",// must edit
-    githubUrl: "#https://github.com/sisaynegashmengistu/Joker",//must edit
+    title: "Robotic arm",
+    description:"Wireless robotic arm system designed to remotely pick and place objects using an Android-controlled interface. Integrates Arduino-based control, wireless communication, and robotic motion for automated object handling.",
+    image:"https://www.evsint.com/wp-content/uploads/2020/11/Pick-and-place-robot-arm1.jpg",
+    techStack: ["Arduino", "Maya-3D Modeling and Design", "Proteus", "Android"],
+    demoUrl: "#",// must edit
+    githubUrl: "https://github.com/sisaynegashmengistu/Wireless-robotic-arm-for-Picking-and-placing-objects",//must edit
     featured: true,
-    category: "Frontend",
+    category: "Fullstack",
   },
   {
     id: 4,
