@@ -386,14 +386,14 @@ export const skillsData: Skill[] = [
 export const projectsData: Project[] = [
   {
     id: 1,
-    title: "EEUCMS",
+    title: "Diabetes Prediction System Using Machine Learning",
     description:
       "An AI-assisted complaint management system for Ethiopian Electric Utility with chatbot support, automated classification, and admin escalation features.",
     image:
-      "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    techStack: ["React", "Cloudinary", "Express", "MongoDB", "Zustand"],
-    demoUrl: "https://eeucms.netlify.app",// must edit
-    githubUrl: "https://github.com/sisaynegashmengistu/aicms",// must edit
+      "https://www.pexels.com/photo/close-up-shot-of-a-glucometer-beside-a-tape-measure-8965153/",
+    techStack: ["Programming Language: Python 3.12.3", "Web Framework: Django", "Machine Learning: Scikit-learn 1.5.0", "Machine Learning Algorithm: Logistic Regression", "Data Processing: Pandas","Dataset: CSV (diabetes.csv)","Model Evaluation: Accuracy, Precision, Recall, F1-score","Frontend: Django Templates / HTML","Backend: Django / Python","Development Server: Django Development Server","Database: SQLite","Package Management: pip","Version Control: Git / GitHub"],
+    demoUrl: "#",// must edit
+    githubUrl: "https://github.com/sisaynegashmengistu/Diabetes_Prediction_system_using_ML",// must edit
     featured: true,
     category: "Fullstack",
   },
