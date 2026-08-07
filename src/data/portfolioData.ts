@@ -413,7 +413,7 @@ export const projectsData: Project[] = [
     title: "Robotic arm",
     description:"Wireless robotic arm system designed to remotely pick and place objects using an Android-controlled interface. Integrates Arduino-based control, wireless communication, and robotic motion for automated object handling.",
     image:"https://www.evsint.com/wp-content/uploads/2020/11/Pick-and-place-robot-arm1.jpg",
-    techStack: ["Arduino", "Maya-3D Modeling and Design", "Proteus", "Android"],
+    techStack: ["Arduino", "Maya-3D Modeling and Design", "Proteus – Circuit design and simulation", "Android"],
     demoUrl: "#",// must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Wireless-robotic-arm-for-Picking-and-placing-objects",//must edit
     featured: true,
@@ -421,14 +421,14 @@ export const projectsData: Project[] = [
   },
   {
     id: 4,
-    title: "PathWise AI",
+    title: "XAI-Based Fetal Abnormalities Detection",
     description:
-      "An AI assisted job read coach that helps a potential job seekers to land their job by providing career planner, github, linkedin profile reviewr, and many more functionality",
+      "An Explainable AI-based fetal anomaly detection system developed with Django and machine learning to classify fetal health conditions from Cardiotocography (CTG) data. Integrates SHAP and LIME to provide interpretable explanations of model predictions and identify the key factors influencing each result.",
     image:
       "https://whatfix.com/blog/wp-content/uploads/2022/12/digital-transformation-3.jpg",
-    techStack: ["React", "Node.js", "MongoDB", "Express", "Grok API"],
-    demoUrl: "https://pathwise-ai-theta.vercel.app/",//must edit
-    githubUrl: "https://github.com/sisaynegashmengistu/PathWise-AI",//must edit
+    techStack: ["Django", "Python", "Jupyter Notebook", "HTML", "CSS", "SQLite", "SHAP",  "LIME."],
+    demoUrl: "#",//must edit
+    githubUrl: "https://github.com/sisaynegashmengistu/Fata_anomalies",//must edit
     featured: true,
     category: "Fullstack",
   },
