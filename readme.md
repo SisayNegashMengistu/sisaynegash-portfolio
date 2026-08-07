@@ -9,7 +9,7 @@ Welcome to my interactive portfolio website! This site showcases my skills, proj
 - Modern and responsive UI design
 - 3D interactive elements with [Three.js](https://threejs.org/)
 - Filterable project showcase with smooth animations
-- 📱Mobile and dark mode friendly
+- Mobile and dark mode friendly
 - Live demo and GitHub links for each project
 - Dynamic category filtering with animation
 - Smooth transitions using Framer Motion
@@ -51,7 +51,6 @@ src/
 
 ```bash
 git clone https://github.com/SisayNegashMengistu/sisay.git
-cd sisay
 ```
 
 2. **Install dependencies:**
@@ -76,7 +75,7 @@ npm run build
 
 ## 🌐 Live Demo
 
-[👉 View Live Portfolio](https://sisaynegashmengistu.vercel.app)
+[👉 View Live Portfolio](https://sisay-portifolio.vercel.app/.app)
 
 ---
 
