@@ -402,7 +402,7 @@ export const projectsData: Project[] = [
     description:
       "A web-based Property Management System designed to streamline property, tenant, and rental management through a centralized platform. It helps users efficiently manage property information, tenant records, and related management activities while reducing manual work.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-j_0amOOtBaVHvtLRxQ5YTFDdZQeW7ZaYKZhtAR_-vg&s=10",
-    techStack: ["HTML", "CSS", "PHP", "JavaScript"],
+    techStack: ["HTML", "CSS", "PHP", "JavaScript","Laravel"],
     demoUrl: "https://github.com/sisaynegashmengistu/telemedicine",// must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Properties-management-system",// must edit
     featured: false,
