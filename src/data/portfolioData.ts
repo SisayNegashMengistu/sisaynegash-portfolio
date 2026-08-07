@@ -390,7 +390,7 @@ export const projectsData: Project[] = [
     description:
       "This project implements a diabetes prediction system using machine learning techniques. The system takes various health-related features as input and predicts whether a person is likely to have diabetes or not.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zKac32fTFNAKa6p-pgpvQaJ2_zS-t1qnM0BCLA1LiA&s=10",
-    techStack: ["CSS", "Logistic Regression","JavaScript","Django"," Git / GitHub"],
+    techStack: ["HTML","CSS", "Logistic Regression","JavaScript","Django"," Git / GitHub"],
     demoUrl: "#",// must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Diabetes_Prediction_system_using_ML",// must edit
     featured: true,
@@ -398,14 +398,13 @@ export const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: "TeleMedicine Platform",
+    title: "Properties management system",
     description:
-      "A telemedicine web platform to consult doctors online, built with a stack using HTML, CSS, PHP, and JavaScript.",
-    image:
-      "https://images.pexels.com/photos/4056856/pexels-photo-4056856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "A web-based Property Management System designed to streamline property, tenant, and rental management through a centralized platform. It helps users efficiently manage property information, tenant records, and related management activities while reducing manual work.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-j_0amOOtBaVHvtLRxQ5YTFDdZQeW7ZaYKZhtAR_-vg&s=10",
     techStack: ["HTML", "CSS", "PHP", "JavaScript"],
     demoUrl: "https://github.com/sisaynegashmengistu/telemedicine",// must edit
-    githubUrl: "https://github.com/sisaynegashmengistu",// must edit
+    githubUrl: "https://github.com/sisaynegashmengistu/Properties-management-system",// must edit
     featured: false,
     category: "Fullstack",
   },
