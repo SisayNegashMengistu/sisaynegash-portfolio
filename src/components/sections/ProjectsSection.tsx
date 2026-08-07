@@ -153,7 +153,7 @@ export default function ProjectsSection() {
           className="flex justify-center mt-12"
         >
           <a
-            href="https://github.com/dan-kingo"
+            href="https://github.com/SisayNegashMengistu"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
