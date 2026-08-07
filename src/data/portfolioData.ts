@@ -388,10 +388,10 @@ export const projectsData: Project[] = [
     id: 1,
     title: "Diabetes Prediction System Using Machine Learning",
     description:
-      "An AI-assisted complaint management system for Ethiopian Electric Utility with chatbot support, automated classification, and admin escalation features.",
+      "This project implements a diabetes prediction system using machine learning techniques. The system takes various health-related features as input and predicts whether a person is likely to have diabetes or not.",
     image:
-      "https://www.pexels.com/photo/close-up-shot-of-a-glucometer-beside-a-tape-measure-8965153/",
-    techStack: ["Programming Language: Python 3.12.3", "Web Framework: Django", "Machine Learning: Scikit-learn 1.5.0", "Machine Learning Algorithm: Logistic Regression", "Data Processing: Pandas","Dataset: CSV (diabetes.csv)","Model Evaluation: Accuracy, Precision, Recall, F1-score","Frontend: Django Templates / HTML","Backend: Django / Python","Development Server: Django Development Server","Database: SQLite","Package Management: pip","Version Control: Git / GitHub"],
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxi3iji8RMRkasgPqk0gMTZu-Lr487JzEphGz6YsOA-A&s=10",
+    techStack: ["Django", "Logistic Regression","Django"," Git / GitHub"],
     demoUrl: "#",// must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Diabetes_Prediction_system_using_ML",// must edit
     featured: true,
