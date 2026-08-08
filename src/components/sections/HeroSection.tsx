@@ -27,7 +27,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-dark-500 to-dark-700 dark:from-white dark:to-gray-300"
           >
-            Hi, I'm {personalInfo.name}
+          I'm {personalInfo.name}
           </motion.h1>
 
           <motion.p
