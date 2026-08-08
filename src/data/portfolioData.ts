@@ -441,20 +441,19 @@ export const projectsData: Project[] = [
     techStack: ["React", "Tailwind CSS"],
     demoUrl: "https://miranagym.netlify.app",// must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Mirana-Gym",// must edit
-    featured: false,
+    featured: true,
     category: "Frontend",
   },
   {
     id: 6,
-    title: "SocialBook (Meta Clone UI)",
+    title: "Awesome Machine Learning Interpretability",
     description:
-      "A Facebook-like user interface clone built with HTML, CSS, and JavaScript. Focused on UI replication and responsiveness.",
-    image:
-      "https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://greatface.netlify.app/",//edit
-    githubUrl: "https://github.com/sisaynegashmengistu",//edit
-    featured: false,
+      "Contributed to a curated Responsible AI and Machine Learning Interpretability repository by adding and organizing Explainable AI (XAI) resources, tools, frameworks, and learning materials, with a focus on improving access to practical model interpretability and responsible machine learning resources.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9VZY9wJaNE0FqxuxugKpqc2kikz8bII3ENsuHTAR1lFQYv4izaqJf1vaq&s=10",
+    techStack: ["Python", "XAI / Explainability", "SHAP", "LIME", "Scikit-learn", "Git & GitHub","Markdown"],
+    demoUrl: "#",//edit
+    githubUrl: "https://github.com/sisaynegashmengistu/awesome-machine-learning-interpretability",//edit
+    featured: true,
     category: "Frontend",
   },
 ];
