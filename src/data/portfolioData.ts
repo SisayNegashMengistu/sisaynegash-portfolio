@@ -424,7 +424,7 @@ export const projectsData: Project[] = [
     title: "XAI-Based Fetal Abnormalities Detection",
     description:
       "An Explainable AI-based fetal anomaly detection system developed with Django and machine learning to classify fetal health conditions from Cardiotocography (CTG) data. Integrates SHAP and LIME to provide interpretable explanations of model predictions and identify the key factors influencing each result.",
-    image:"",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjGJLlwMJrzSMbMMb43MUvLAF8HNljNeiLrTBtN52EI-3uw2_rwfrWUWt1&s=10",
     techStack: ["Django", "Python", "Jupyter Notebook", "HTML", "CSS", "SQLite", "SHAP",  "LIME."],
     demoUrl: "#",//must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Fata_anomalies",//must edit
@@ -437,7 +437,7 @@ export const projectsData: Project[] = [
     description:
       "A clean and modern gym landing page showcasing services, pricing, and class schedules, designed using React and Tailwind CSS.",
     image:
-      "https://health.clevelandclinic.org/how-to-overcome-gym-anxiety-gymtimidation",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5lWV2rV2NxA9cXU8rqv6kNAkX09fkg4SbxHqMRLPNNqYj6PCdKQSu9EX&s=10",
     techStack: ["React", "Tailwind CSS"],
     demoUrl: "https://miranagym.netlify.app",// must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Mirana-Gym",// must edit
