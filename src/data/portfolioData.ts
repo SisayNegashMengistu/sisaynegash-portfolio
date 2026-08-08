@@ -461,7 +461,7 @@ export const projectsData: Project[] = [
 export const personalInfo = {
   name: "Sisay Negash",
   title: "Software Engineer | Lecturer|AI/XAI research",
-  description:"I'm a Software Engineer, Lecturer, and Full-Stack Developer.I build scalable, secure, and user-friendly software using modern technologies. I combine academic excellence with industry experience to deliver innovative solutions and mentor future engineers.",
+  description:"Software Engineer, Lecturer, and Full-Stack Developer building scalable, secure, and innovative software while mentoring future engineers.",
   location: "Dire Dawa, Ethiopia",
   email: "ctrlasoft@gmail.com",
   phone: "+2519 27-64-07-51",
