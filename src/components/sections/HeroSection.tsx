@@ -50,7 +50,7 @@ export default function HeroSection() {
               Contact Me
             </a>
             <a
-              href="/sisay-cv-europasss.pdf"
+              href="/Sisay_negash_mengistu_CV.pdf"
               className="btn btn-outline px-4 py-2"
               download
             >
