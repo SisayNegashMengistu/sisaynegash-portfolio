@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A84C"/>
+      <stop offset="35%" stop-color="#F5E18C"/>
+      <stop offset="65%" stop-color="#E8C86A"/>
+      <stop offset="100%" stop-color="#B8923A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A843"/>
+      <stop offset="50%" stop-color="#F2D06B"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#0F0F1F"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="250" cy="250" r="250" fill="url(#bgGrad)"/>
+
+  <!-- Outer pulse ring 1 -->
+  <circle cx="250" cy="250" r="180" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.15">
+    <animate attributeName="r" values="170;200;170" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.05;0.2" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Outer pulse ring 2 -->
+  <circle cx="250" cy="250" r="160" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.2">
+    <animate attributeName="r" values="155;175;155" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.25;0.08;0.25" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main circle border -->
+  <circle cx="250" cy="250" r="140" fill="none" stroke="url(#goldGrad)" stroke-width="4" filter="url(#glow)">
+    <animate attributeName="stroke-width" values="4;5;4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Inner thin circle -->
+  <circle cx="250" cy="250" r="130" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Inner circle decorative dash rotation -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 250 250" to="360 250 250" dur="12s" repeatCount="indefinite"/>
+    <circle cx="250" cy="250" r="135" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="8 18" opacity="0.35"/>
+  </g>
+
+  <!-- S-SHAPE SYMBOL -->
+  <g transform="translate(250, 250)" filter="url(#softGlow)">
+    <!-- The S-shape as a flowing ribbon -->
+    <path d="M -15,-65 
+             C 35,-65 45,-35 25,-15 
+             C 10,0 -10,10 -25,25 
+             C -45,45 -35,75 15,75 
+             C 35,75 40,65 40,55" 
+          fill="none" stroke="url(#goldGrad2)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-width" values="10;12;10" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- S-shape glow trail -->
+    <path d="M -15,-65 
+             C 35,-65 45,-35 25,-15 
+             C 10,0 -10,10 -25,25 
+             C -45,45 -35,75 15,75 
+             C 35,75 40,65 40,55" 
+          fill="none" stroke="#F5E18C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Small diamond accent at top of S -->
+    <polygon points="0,-78 6,-70 0,-62 -6,-70" fill="url(#goldGrad2)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- Small diamond accent at bottom of S -->
+    <polygon points="40,48 46,56 40,64 34,56" fill="url(#goldGrad2)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- Decorative dots around the circle -->
+  <g>
+    <circle cx="250" cy="100" r="4" fill="url(#goldGrad)" opacity="0.6">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="400" r="4" fill="url(#goldGrad)" opacity="0.6">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="100" cy="250" r="4" fill="url(#goldGrad)" opacity="0.6">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="400" cy="250" r="4" fill="url(#goldGrad)" opacity="0.6">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+  </g>
+
+  <!-- Diagonal dots -->
+  <g opacity="0.4">
+    <circle cx="146" cy="146" r="2.5" fill="url(#goldGrad)">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="354" cy="146" r="2.5" fill="url(#goldGrad)">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite" begin="0.75s"/>
+    </circle>
+    <circle cx="146" cy="354" r="2.5" fill="url(#goldGrad)">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <circle cx="354" cy="354" r="2.5" fill="url(#goldGrad)">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite" begin="2.25s"/>
+    </circle>
+  </g>
+
+  <!-- Star sparkle accents -->
+  <g opacity="0.5" filter="url(#softGlow)">
+    <!-- Top-left sparkle -->
+    <polygon points="75,75 78,68 81,75 88,78 81,81 78,88 75,81 68,78" fill="url(#goldGrad)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Top-right sparkle -->
+    <polygon points="425,75 428,68 431,75 438,78 431,81 428,88 425,81 418,78" fill="url(#goldGrad)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite" begin="1s"/>
+    </polygon>
+    <!-- Bottom-left sparkle -->
+    <polygon points="75,425 78,418 81,425 88,428 81,431 78,438 75,431 68,428" fill="url(#goldGrad)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite" begin="2s"/>
+    </polygon>
+    <!-- Bottom-right sparkle -->
+    <polygon points="425,425 428,418 431,425 438,428 431,431 428,438 425,431 418,428" fill="url(#goldGrad)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite" begin="3s"/>
+    </polygon>
+  </g>
+
+  <!-- Pulsing center glow behind S -->
+  <circle cx="250" cy="250" r="30" fill="url(#goldGrad)" opacity="0.08">
+    <animate attributeName="r" values="25;40;25" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.15;0.08" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

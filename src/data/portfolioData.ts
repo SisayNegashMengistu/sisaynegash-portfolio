@@ -433,27 +433,26 @@ export const projectsData: Project[] = [
   },
   {
     id: 5,
-    title: "Mirana Gym",
+    title: "CodeExam — Online Quiz & Examination System",
     description:
-      "A clean and modern gym landing page showcasing services, pricing, and class schedules, designed using React and Tailwind CSS.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5lWV2rV2NxA9cXU8rqv6kNAkX09fkg4SbxHqMRLPNNqYj6PCdKQSu9EX&s=10",
-    techStack: ["React", "Tailwind CSS"],
-    demoUrl: "https://miranagym.netlify.app",// must edit
-    githubUrl: "https://github.com/sisaynegashmengistu/Mirana-Gym",// must edit
-    featured: true,
+      "A professional, fully-functional JavaScript examination platform built entirely with vanilla HTML, CSS, and ES6+ JavaScript — no frameworks, no build tools, no external UI libraries.This project was built as a deliberate exercise in core JavaScript fundamentals: DOM manipulation, application state management, closures, array/object methods, asynchronous programming, and clean modular architecture.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3eB7k8H6JnM4XEvO5RF3h6iYZ1rmKilWS85TwnzAyXzyr5hm7Kl1Nf_xR&s=10",
+    techStack: ["Javascript", " CSS","HTML"],
+    demoUrl: "https://online-quiz-system-self.vercel.app/",// must edit
+    githubUrl: "https://github.com/SisayNegashMengistu/online-quiz-system",// must edit
+    featured: false,
     category: "Frontend",
   },
   {
     id: 6,
-    title: "Awesome Machine Learning Interpretability",
+    title: "Todo App",
     description:
-      "Contributed to a curated Responsible AI and Machine Learning Interpretability repository by adding and organizing Explainable AI (XAI) resources, tools, frameworks, and learning materials, with a focus on improving access to practical model interpretability and responsible machine learning resources.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9VZY9wJaNE0FqxuxugKpqc2kikz8bII3ENsuHTAR1lFQYv4izaqJf1vaq&s=10",
-    techStack: ["Python", "XAI / Explainability", "SHAP", "LIME", "Scikit-learn", "Git & GitHub","Markdown"],
-    demoUrl: "#",//edit
-    githubUrl: "https://github.com/sisaynegashmengistu/awesome-machine-learning-interpretability",//edit
-    featured: true,
+      "A production-quality, fully animated task management app built with vanilla HTML5, CSS3, and JavaScript (ES6+),no frameworks, no build step. Tasks persist in localStorage.",
+    image: "https://play-lh.googleusercontent.com/oE7aUpS05eX1YaHkfK-iFZ35xZ8ksuZDK31HGV857LkMIZqg-nIoAWO6SfnN40t3oFqr4BkLGyLNpo7KOGbsBw",
+    techStack: ["JavaScript", "CSS ", "HTML"],
+    demoUrl: "https://todo-app-rose-nine-44.vercel.app/",//edit
+    githubUrl: "https://github.com/SisayNegashMengistu/Todo-APP",//edit
+    featured: false,
     category: "Frontend",
   },
 ];
