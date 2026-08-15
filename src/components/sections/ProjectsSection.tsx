@@ -8,7 +8,7 @@ export default function ProjectsSection() {
   const [activeFilter, setActiveFilter] = useState<string>('All');
 
   // Get unique categories from projectsData
-  const allCategories = ['All', 'Fullstack','Frontend','AI','Engineering','Cloud'];
+  const allCategories = ['All', 'Fullstack','Backend','Frontend','AI','Engineering','Cloud'];
 
   // Filter projects based on selected category
   const filteredProjects =

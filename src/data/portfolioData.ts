@@ -460,13 +460,13 @@ export const projectsData: Project[] = [
     id: 7,
     title: "OneDDU-ERP System",
     description:
-      "Clearance,evaluation and staff profile systems using Node Js, react Typescripts and tailwind Css ",
+      "This project develops an integrated web-based system combining staff information, clearance, and complaint management into one secure platform.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU6AOiR0ZPAW5Epkn86ITwSF3ERyzNG99E89XExxFDJQ&s=10",
     techStack: ["JavaScript", "Tailwinds ", "HTML","Node JS"],
     demoUrl: "#",//edit
     githubUrl: "#",//edit
     featured: false,
-    category: "Fullstack",
+    category: "Backend",
   },
 ];
 
