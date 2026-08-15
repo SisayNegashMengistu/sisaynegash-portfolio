@@ -455,6 +455,19 @@ export const projectsData: Project[] = [
     featured: false,
     category: "Frontend",
   },
+  // newly added project
+  {
+    id: 7,
+    title: "OneDDU-ERP System",
+    description:
+      "Clearance,evaluation and staff profile systems using Node Js, react Typescripts and tailwind Css ",
+    image: "",
+    techStack: ["JavaScript", "Tailwinds ", "HTML","Node JS"],
+    demoUrl: "#",//edit
+    githubUrl: "#",//edit
+    featured: false,
+    category: "Backend",
+  },
 ];
 
 export const personalInfo = {
