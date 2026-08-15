@@ -394,7 +394,7 @@ export const projectsData: Project[] = [
     demoUrl: "#",// must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Diabetes_Prediction_system_using_ML",// must edit
     featured: true,
-    category: "Fullstack",
+    category: "AI",
   },
   {
     id: 2,
@@ -429,7 +429,7 @@ export const projectsData: Project[] = [
     demoUrl: "#",//must edit
     githubUrl: "https://github.com/sisaynegashmengistu/Fata_anomalies",//must edit
     featured: true,
-    category: "Fullstack",
+    category: "AI",
   },
   {
     id: 5,
